@@ -83,18 +83,17 @@
 /* 8. exercice-8 */
 .exercice-8 .container-small {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: stretch;
-  align-items: center;
-  align-content: flex-start;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: baseline;
 }
 
 .exercice-8 .element-red,
 .exercice-8 .element-blue,
 .exercice-8 .element-yellow {
   order: 0;
-  align-items: baseline;
 }
+
 .exercice-8 .element-pink {
   order: 1;
 }
@@ -106,4 +105,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+
+/* 7. exercice-all-in-2 */
+.exercice-all-in-2 .container {
+  display:flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: baseline;
+}
+
+.exercice-all-in-2 .element-pink {
+  order: 2;
+}
+
+.exercice-all-in-2 .element-pink,
+.exercice-all-in-2 .element-blue {
+  flex-grow: 1;
 }
