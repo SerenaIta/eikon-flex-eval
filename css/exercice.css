@@ -102,3 +102,8 @@
 
 /* 10. exercice-10 */
 
+.exercice-10 .container-big {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
