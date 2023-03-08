@@ -1,20 +1,21 @@
+.container{
+  display: flex;
+}
+
 /* 1. exercice-1 */
 .exercice-1 .container {
-  display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 /* 2. exercice-2 */
 .exercice-2 .container {
-  display: flex;
   flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
 }
 /* 3. exercice-3 */
 .exercice-3 .container {
-  display: flex;
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
@@ -38,7 +39,6 @@
 }
 /* 4. exercice-4 */
 .exercice-4 .container {
-  display: flex;
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
@@ -58,7 +58,6 @@
 }
 /* 5. exercice-5 */
 .exercice-5 .container-small {
-  display: flex;
   flex-direction: row;
   justify-content: center;
   align-content: center;
@@ -66,7 +65,6 @@
 }
 /* 6. exercice-6 */
 .exercice-6 .container-small {
-  display: flex;
   flex-wrap: wrap;
   align-content: center;
   flex-wrap: wrap-reverse;
@@ -74,7 +72,6 @@
 }
 /* 7. exercice-7 */
 .exercice-7 .container-set {
-  display: flex;
   flex-direction: column-reverse;
   align-content: center;
   flex-wrap: wrap-reverse;
@@ -82,7 +79,6 @@
 }
 /* 8. exercice-8 */
 .exercice-8 .container-small {
-  display: flex;
   flex-wrap: wrap;
   align-content: center;
   align-items: baseline;
@@ -98,29 +94,12 @@
   order: 1;
 }
 /* 9. exercice-9 */
-
+.exercice-9 .container-small {
+  display: flex;
+}
 /* 10. exercice-10 */
 
 .exercice-10 .container-big {
-  display: flex;
   align-items: center;
   justify-content: center;
-}
-
-
-/* 7. exercice-all-in-2 */
-.exercice-all-in-2 .container {
-  display:flex;
-  flex-wrap: wrap;
-  align-content: center;
-  align-items: baseline;
-}
-
-.exercice-all-in-2 .element-pink {
-  order: 2;
-}
-
-.exercice-all-in-2 .element-pink,
-.exercice-all-in-2 .element-blue {
-  flex-grow: 1;
 }
