@@ -96,6 +96,7 @@
 /* 9. exercice-9 */
 .exercice-9 .container-small {
   display: flex;
+  align-items: baseline;
 }
 /* 10. exercice-10 */
 
