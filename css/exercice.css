@@ -81,7 +81,23 @@
   justify-content: space-between;
 }
 /* 8. exercice-8 */
+.exercice-8 .container-small {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: stretch;
+  align-items: center;
+  align-content: flex-start;
+}
 
+.exercice-8 .element-red,
+.exercice-8 .element-blue,
+.exercice-8 .element-yellow {
+  order: 0;
+  align-items: baseline;
+}
+.exercice-8 .element-pink {
+  order: 1;
+}
 /* 9. exercice-9 */
 
 /* 10. exercice-10 */
