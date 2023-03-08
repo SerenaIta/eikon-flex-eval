@@ -19,12 +19,22 @@
   flex-direction: column;
   align-items: center;
 }
-.exercice-3 .element-red .element-green .element-pink {
-  order: 1;
-}
 
 .exercice-3 .element-blue {
   order: 0;
+  align-self: flex-start;
+}
+
+.exercice-3 .element-red {
+  order: 1;
+}
+
+.exercice-3 .element-green {
+  order: 2;
+}
+
+.exercice-3 .element-pink {
+  order: 3;
 }
 /* 4. exercice-4 */
 .exercice-4 .container {
