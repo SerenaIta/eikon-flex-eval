@@ -67,14 +67,22 @@
 /* 6. exercice-6 */
 .exercice-6 .container-small {
   display: flex;
-  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: center;
   flex-wrap: wrap-reverse;
   flex-direction: row;
 }
 /* 7. exercice-7 */
-
+.exercice-7 .container-set {
+  display: flex;
+  flex-direction: column-reverse;
+  align-content: center;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+}
 /* 8. exercice-8 */
 
 /* 9. exercice-9 */
 
 /* 10. exercice-10 */
+
