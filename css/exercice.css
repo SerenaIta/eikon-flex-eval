@@ -13,7 +13,19 @@
   align-items: center;
 }
 /* 3. exercice-3 */
+.exercice-3 .container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+.exercice-3 .element-red .element-green .element-pink {
+  order: 1;
+}
 
+.exercice-3 .element-blue {
+  order: 0;
+}
 /* 4. exercice-4 */
 
 /* 5. exercice-5 */
@@ -27,4 +39,3 @@
 /* 9. exercice-9 */
 
 /* 10. exercice-10 */
-
